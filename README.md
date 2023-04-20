@@ -1,16 +1,18 @@
 # README
 
-This is for learning purposes.<br>
+Let's learn C programming by implementing algorithms!!
 
 ---
 
-### What has been done so far?
+### DONE
 
 - Binary Search
 - Bubble Sort
 - Queue implementation
-
-### Pending
-
-- Linked list review
 - Stack implementation
+
+### TODO
+
+- Path finding algorithm
+- Quick sort
+
