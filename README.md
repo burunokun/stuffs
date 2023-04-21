@@ -8,11 +8,11 @@ Let's learn C programming by implementing algorithms!!
 
 - Binary Search
 - Bubble Sort
+- Quick sort
 - Queue implementation
+- Recursion
 - Stack implementation
 
 ### TODO
 
-- Path finding algorithm
-- Quick sort
-
+- Linked list (Singly, Doubly)
