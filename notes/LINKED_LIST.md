@@ -28,6 +28,23 @@ Node *insert_node(Node *head, int val) {
 ```
 
 ---
+### Remove Node
+```c
+void removeNode(Node *node) {
+    Node *temp = node->next;
+    *node = *node->next;
+    free(temp);
+}
+```
+The above is just the same as
+```c
+void removeNode(Node *node) {
+    node->val = node->next->val;
+    node->next = node->next->next;
+}
+```
+
+---
 ### Reorder list
 Group and reorder linked list by odd and even indices. 
 ```c

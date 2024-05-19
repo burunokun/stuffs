@@ -1,12 +1,9 @@
-Concat function
-```c
-// strcat: returns a copy of dest
-//         returns 0 on success, non-zero on error. Also, on error, writes zero to dest[0]
-char *concat(char *dest, char *src) {
-	strcat(dest, src);
-	return dest;
-}
-```
+### STRDUP and STRCPY
+`strdup` allocates and returns a pointer to the duplicated string.
+`strcpy` only copies the string to a provided buffer.
+
+---
+### SPLIT and CONCAT
 
 Split function
 ```c
@@ -23,5 +20,15 @@ char **split_by_delim(char *s, char *delim) {
 		}
 	}
 	return arr;
+}
+```
+
+Concat function
+```c
+// strcat: returns a copy of dest
+//         returns 0 on success, non-zero on error. Also, on error, writes zero to dest[0]
+char *concat(char *dest, char *src) {
+	strcat(dest, src);
+	return dest;
 }
 ```
